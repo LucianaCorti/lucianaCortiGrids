@@ -1,0 +1,535 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* GRILLA GENERAL */
+.grilla {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  grid-template-areas:
+    "header header header header"
+    "primeraSeccion primeraSeccion primeraSeccion Aside"
+    "segundaSeccion segundaSeccion segundaSeccion segundaSeccion"
+    "footer footer footer footer";
+  background-color: white;
+  margin: 0.5rem;
+}
+
+.header {
+  grid-area: header;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+.logoXuca {
+  height: 8rem;
+}
+
+.nav {
+  width: 100%;
+  background-color: #bd9354;
+}
+
+.header ul {
+  display: flex;
+  background-color: #bd9354;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header li {
+  padding: 5px;
+  margin: 5px;
+  list-style: none;
+}
+
+.enlaces {
+  color: white;
+  text-decoration: none;
+}
+
+.enlaces:hover {
+  background-color: rgba(255, 255, 255, 0.459);
+  border-radius: 5px;
+}
+
+.primeraSeccion {
+  grid-area: primeraSeccion;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5px;
+  /* background-color: #c0aa6e; */
+}
+
+.primeraSeccion h1 {
+  margin-top: 0.5rem;
+  text-decoration: underline;
+}
+
+.primeraSeccion p {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.imagenSection {
+  height: 20rem;
+  border-radius: 5%;
+  border: solid 5px #bd9354;
+  margin: 5px;
+}
+
+.boton {
+  height: 2rem;
+  width: 4rem;
+  border-radius: 1rem;
+  margin: 5px;
+}
+
+.boton:hover {
+  background-color: #bd9354;
+  color: wheat;
+}
+.boton a {
+  text-decoration: none;
+  color: black;
+}
+
+.segundaSeccion {
+  grid-area: segundaSeccion;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+  background-color: #c0aa6e13;
+}
+
+.segundaSeccion h3 {
+  text-decoration: underline;
+  margin: 0.5rem;
+}
+
+.segundaSeccion p {
+  margin: 00.5rem;
+}
+
+.imagenSection2 {
+  height: 10rem;
+  margin: 4px;
+  border-radius: 5%;
+  /* border: solid black 2px; */
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.divImagenes2 {
+  background-color: #c0aa6e;
+  width: 100%;
+}
+
+.divImagenes2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  align-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+.Aside {
+  grid-area: Aside;
+}
+
+.divAside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1508716897701-edab2a9e860c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80);
+  background-size: cover;
+  color: black;
+  margin: 5px;
+}
+
+.divAside h3 {
+  color: #bd9354;
+  text-decoration: underline;
+  padding: 0.5rem;
+}
+
+.divAside h5 {
+  margin-top: 8rem;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.divFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #bd9354;
+}
+
+.divFooter h4 {
+  text-decoration: underline;
+  color: #876445;
+}
+
+.divFooter a {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+}
+
+.logoXuca1 {
+  height: 3rem;
+}
+
+@media (max-width: 425px) {
+  .grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    grid-template-areas:
+      "header header header header"
+      "primeraSeccion primeraSeccion primeraSeccion primeraSeccion"
+      "segundaSeccion segundaSeccion segundaSeccion segundaSeccion"
+      "footer footer footer footer";
+  }
+  .header ul {
+    display: flex;
+    background-color: #bd9354;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .primeraSeccion {
+    grid-area: primeraSeccion;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    margin: 5px;
+    /* background-color: #c0aa6e; */
+    flex-direction: column;
+  }
+  .imagenSection {
+    max-height: 10rem;
+    border-radius: 5%;
+    border: solid 5px #bd9354;
+    margin: 5px;
+  }
+  .divImagenes2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-end;
+    justify-content: center;
+    background-color: white;
+  }
+
+  .divAside {
+    display: none;
+  }
+}
+
+/* ..................CURSOS...................... */
+
+.grillaCursos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "headerCursos headerCursos headerCursos headerCursos"
+    "sectionCursos sectionCursos sectionCursos sectionCursos"
+    "sectionCursos sectionCursos sectionCursos sectionCursos"
+    "footerCursos footerCursos footerCursos footerCursos";
+}
+
+.headerCursos {
+  grid-area: headerCursos;
+}
+
+.sectionCursos {
+  grid-area: sectionCursos;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionCursos h2 {
+  margin-top: 8px;
+  text-decoration: underline;
+}
+
+.sectionCursos p {
+  margin: 10px;
+  padding: 0.5rem;
+}
+
+.sectionCursos h4 {
+  color: #876445;
+}
+
+.sectionCursos video {
+  height: 20rem;
+  border: solid #bd9354 0.5rem;
+  margin: 1rem;
+}
+
+.footerCursos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #bd9354;
+}
+
+.footerCursos h4 {
+  text-decoration: underline;
+  color: #876445;
+}
+
+.footerCursos a {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+}
+
+.redes {
+  text-align: center;
+}
+
+@media (max-width: 425px) {
+  .grillaCursos {
+    display: grid;
+    grid-template-areas:
+      "headerCursos headerCursos headerCursos"
+      "sectionCursos sectionCursos sectionCursos"
+      "sectionCursos sectionCursos sectionCursos"
+      "footerCursos footerCursos footerCursos";
+  }
+}
+
+/* ..................PRODUCTOS...................... */
+
+.grillaProductos {
+  display: grid;
+  grid-template-areas:
+    "headerProductos headerProductos headerProductos headerProductos"
+    "sectionProductos sectionProductos sectionProductos sectionProductos"
+    "sectionProductos sectionProductos sectionProductos sectionProductos"
+    "footerProductos footerProductos footerProductos footerProductos";
+}
+
+.headerProductos {
+  grid-area: headerProductos;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerProductos ul {
+  display: flex;
+  background-color: #bd9354;
+  margin: 5px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.headerProductos li {
+  padding: 5px;
+  margin: 5px;
+  list-style: none;
+}
+
+.sectionProductos {
+  grid-area: sectionProductos;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionProductos h2 {
+  text-align: center;
+  margin: 0.5rem;
+  text-decoration: underline;
+}
+
+.imagenProductos {
+  height: 15rem;
+  margin: 0.5rem;
+}
+
+.footerProductos {
+  grid-area: footerProductos;
+}
+
+@media (max-width: 425px) {
+  .grillaProductos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    grid-template-areas:
+      "headerProductos headerProductos headerProductos headerProductos"
+      "sectionProductos sectionProductos sectionProductos sectionProductos"
+      "sectionProductos sectionProductos sectionProductos sectionProductos"
+      "footerProductos footerProductos footerProductos footerProductos";
+  }
+  .headerProductos ul {
+    display: flex;
+    background-color: #bd9354;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .imagenProductos {
+    max-height: 9rem;
+    margin: 5px;
+  }
+}
+
+/* ..................QUIENES SOMOS...................... */
+
+.sectionProductos h2 {
+  margin: 0.8rem;
+}
+
+.sectionProductos p {
+  margin-top: 0.2rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  margin-bottom: 0.2rem;
+}
+
+.imagenQuienes {
+  height: 20rem;
+  margin: 1rem;
+}
+
+/* ..................CONTACTO...................... */
+
+.grillaContacto {
+  display: grid;
+  grid-template-areas:
+    "headerContacto headerContacto headerContacto headerContacto"
+    "sectionContacto sectionContacto sectionContacto asideContacto"
+    "sectionContacto sectionContacto sectionContacto asideContacto"
+    "footerContacto footerContacto footerContacto footerContacto";
+}
+
+.headerContacto {
+  grid-area: headerContacto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  width: 100%;
+  background-color: #bd9354;
+}
+
+.headerContacto ul {
+  display: flex;
+  background-color: #bd9354;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerContacto li {
+  padding: 5px;
+  margin: 5px;
+  list-style: none;
+}
+
+.sectionContacto {
+  grid-area: sectionContacto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.sectionContacto h2 {
+  margin: 0.5rem;
+  text-decoration: underline;
+}
+
+.formularioContacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formularioContacto input {
+  margin: 0.5rem;
+  text-align: center;
+  border: solid 1px black;
+}
+
+.asideContacto {
+  grid-area: asideContacto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.asideContacto h3 {
+  text-decoration: underline;
+}
+.footerContacto {
+  grid-area: footerContacto;
+}
+
+@media (max-width: 425px) {
+  .grillaContacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    grid-template-areas:
+      "headerContacto headerContacto headerContacto headerContacto"
+      "sectionContacto sectionContacto sectionContacto sectionContacto"
+      "sectionContacto sectionContacto sectionContacto sectionContacto"
+      "footerContacto footerContacto footerContacto footerContacto";
+  }
+  .headerContacto ul {
+    display: flex;
+    background-color: #bd9354;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .sectionContacto {
+    grid-area: sectionContacto;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    margin: 5px;
+    /* background-color: #c0aa6e; */
+    flex-direction: column;
+  }
+
+  .asideContacto {
+    display: none;
+  }
+}
