@@ -66,6 +66,11 @@
   display: flex;
 }
 
+.carousel-inner {
+  display: flex;
+  justify-content: space-around;
+}
+
 .primeraSeccion {
   grid-area: primeraSeccion;
   display: flex;
@@ -73,18 +78,17 @@
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
-  /* margin: 5px; */
+  margin: 5px;
   /* background-color: #c0aa6e; */
 }
 
-.primeraSeccion h1 {
-  text-decoration: underline;
+.primeraSeccion h2 {
+  margin-top: 0.5rem;
 }
 
-/* .primeraSeccion p {
-  margin: 0.5rem;
+.primeraSeccion p {
   padding: 0.5rem;
-} */
+}
 
 .imagenSection {
   height: 20rem;
@@ -273,6 +277,10 @@
   }
 
   .divAside {
+    display: none;
+  }
+
+  .carousel {
     display: none;
   }
 }
