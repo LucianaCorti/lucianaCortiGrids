@@ -102,22 +102,6 @@
   transform: scale(1.1);
 }
 
-/* .boton {
-  height: 2rem;
-  width: 4rem;
-  border-radius: 1rem;
-  margin: 5px;
-}
-
-.btnbtn-outline-success:hover {
-  background-color: #bd9354;
-  color: wheat;
-}
-.boton a {
-  text-decoration: none;
-  color: black;
-} */
-
 .segundaSeccion {
   grid-area: segundaSeccion;
   display: flex;
@@ -513,10 +497,6 @@
   background-color: white;
 }
 
-.sectionContacto h2 {
-  margin: 0.5rem;
-  text-decoration: underline;
-}
 
 .formularioContacto {
   display: flex;
@@ -536,11 +516,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 1rem;
 }
 
 .asideContacto h3 {
   text-decoration: underline;
 }
+
+iframe{
+  margin: 2rem;
+}
+
 .footerContacto {
   grid-area: footerContacto;
 }
@@ -578,4 +564,5 @@
   .asideContacto {
     display: none;
   }
+
 }
