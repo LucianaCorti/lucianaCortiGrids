@@ -61,7 +61,7 @@
   border-radius: 5px;
 }
 
-.carousel{
+.carousel {
   grid-area: carousel;
   display: flex;
 }
@@ -102,21 +102,21 @@
   transform: scale(1.1);
 }
 
-.boton {
+/* .boton {
   height: 2rem;
   width: 4rem;
   border-radius: 1rem;
   margin: 5px;
 }
 
-.boton:hover {
+.btnbtn-outline-success:hover {
   background-color: #bd9354;
   color: wheat;
 }
 .boton a {
   text-decoration: none;
   color: black;
-}
+} */
 
 .segundaSeccion {
   grid-area: segundaSeccion;
