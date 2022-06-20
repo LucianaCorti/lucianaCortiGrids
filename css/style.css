@@ -87,6 +87,11 @@
   margin: 5px;
 }
 
+.imagenSection:hover{
+  transition: (1.1);
+  transform: scale(1.1);
+}
+
 .boton {
   height: 2rem;
   width: 4rem;
@@ -128,6 +133,10 @@
   /* border: solid black 2px; */
   padding: 0.5rem;
   text-align: center;
+}
+
+.imagenSection2:hover{
+  transform: scale(0.5s);
 }
 
 .divImagenes2 {
