@@ -450,6 +450,7 @@
 .imagenQuienes {
   height: 20rem;
   margin: 1rem;
+  border-radius: 0.5rem;
 }
 
 /* ..................CONTACTO...................... */
