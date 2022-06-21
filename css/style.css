@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Sniglet', cursive;
+  font-family: "Sniglet", cursive;
 }
 
 /* GRILLA GENERAL */
@@ -293,11 +293,10 @@
   margin: 1rem;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
+.container {
+  display: flex;
+  justify-content: center;
 }
-
 
 /* ..................PRODUCTOS...................... */
 
