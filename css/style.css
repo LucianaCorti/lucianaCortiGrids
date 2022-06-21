@@ -87,6 +87,7 @@
 
 .primeraSeccion p {
   padding: 0.5rem;
+  line-height: 1.5rem;
 }
 
 .imagenSection {
@@ -117,6 +118,7 @@
 
 .segundaSeccion p {
   margin: 00.5rem;
+  line-height: 1.5rem;
 }
 
 .imagenSection2 {
@@ -301,8 +303,9 @@
 }
 
 .sectionCursos p {
-  margin: 10px;
+  margin: 5px;
   padding: 0.5rem;
+  line-height: 1.5rem;
 }
 
 .sectionCursos h4 {
@@ -444,12 +447,13 @@
   margin-left: 0.8rem;
   margin-right: 0.8rem;
   margin-bottom: 0.2rem;
+  line-height: 1.5rem;
 }
 
 .imagenQuienes {
   height: 20rem;
+  border: solid #bd9354 0.5rem;
   margin: 1rem;
-  border-radius: 0.5rem;
 }
 
 /* ..................CONTACTO...................... */
