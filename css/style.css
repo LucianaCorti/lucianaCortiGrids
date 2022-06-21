@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Sniglet', cursive;
 }
 
 /* GRILLA GENERAL */
@@ -498,7 +497,6 @@
   background-color: white;
 }
 
-
 .formularioContacto {
   display: flex;
   flex-direction: column;
@@ -524,7 +522,7 @@
   text-decoration: underline;
 }
 
-iframe{
+iframe {
   margin: 2rem;
 }
 
@@ -565,5 +563,4 @@ iframe{
   .asideContacto {
     display: none;
   }
-
 }
