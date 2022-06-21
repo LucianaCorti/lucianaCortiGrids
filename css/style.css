@@ -293,6 +293,12 @@
   margin: 1rem;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
 /* ..................PRODUCTOS...................... */
 
 .grillaProductos {
