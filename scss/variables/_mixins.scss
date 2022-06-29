@@ -1,0 +1,5 @@
+@mixin enlaces ($colorLetra, $colorFondo) {
+    text-decoration: none;
+    color: $colorLetra;
+    background-color: $colorFondo;
+}
