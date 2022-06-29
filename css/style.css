@@ -305,6 +305,9 @@ h5 {
     list-style: none; }
   .footerProductos .logoXuca1 {
     height: 2rem; }
+    .footerProductos .logoXuca1:hover {
+      transition: 1.1;
+      transform: scale(1.1); }
 
 @media (max-width: 425px) {
   .grillaProductos {
@@ -430,6 +433,9 @@ input {
     list-style: none; }
   .footerContacto .logoXuca1 {
     height: 2rem; }
+    .footerContacto .logoXuca1:hover {
+      transition: 1.1;
+      transform: scale(1.1); }
 
 .asideContacto {
   grid-area: asideContacto;
