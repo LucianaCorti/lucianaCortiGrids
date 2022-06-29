@@ -1,0 +1,10 @@
+Cambios proyecto:
+1-Agregué etiqueta meta name="keywords"
+2-Agregué etiqueta metanname="description"
+3-Agrupé las páginas en una carpeta llama "pages" salvo el Index
+4-Separé en secciones todo el css agregando scss
+5-Agregué la carpeta "variables"
+6-Dentro de la carpeta "variables" cree 3 archivos "colores" "extend" "mixins"
+7-Agregué lo que correspondia a cada una de ellas y lo reemplacé en el código
+8-Descargué el sitemap y lo agrege a la carpeta
+9-Subí todo a Github
