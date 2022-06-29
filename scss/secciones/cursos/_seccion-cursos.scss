@@ -3,10 +3,7 @@
     text-decoration: underline;
   }
    p {
-    margin: 0.5rem;
-    padding: 0.5rem;
-    line-height: 1.5rem;
-    text-align: center;
+    @extend %estiloParrafo;
   }
   h4 {
     color: $coloresLetras;
