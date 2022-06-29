@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  //Variables
+  @import './variables/colores.scss';
+
+  //Secciones index
+  @import './secciones/index/header-index';
+  @import './secciones/index/primera-seccion-index';
+  @import './secciones/index/segunda-seccion-index';
+  @import './secciones/index/aside-index';
+  @import './secciones/index/footer-index';
+  @import './secciones/index/media';
+
+  //Productos
+  @import './secciones/productos/header-productos';
+  @import './secciones/productos/seccion-productos';
+  @import './secciones/productos/footer-productos';
+  @import './secciones/productos/media-productos';
+
+  //Quienes somos
+  @import './secciones/quienes/seccion-quienes';
+  @import './secciones/quienes/media-quienes';
+
+  //Cursos
+  @import './secciones/cursos/seccion-cursos';
+
+  //Contacto
+  @import './secciones/contacto/header-contacto';
+  @import './secciones/contacto/seccion-contacto';
+  @import './secciones/contacto/footer-contacto';
+  @import './secciones/contacto/aside-contacto';
+  @import './secciones/contacto/media-contacto';
+  
+  
+  

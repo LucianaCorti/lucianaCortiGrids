@@ -1,0 +1,22 @@
+.asideContacto {
+  grid-area: asideContacto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+h3 {
+  text-decoration: underline;
+}
+iframe {
+  margin: 2rem;
+}
+li{
+    list-style: none;
+}
+
+.iconosContacto{
+    padding: 0.5rem;
+}
+

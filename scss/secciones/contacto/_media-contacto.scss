@@ -1,0 +1,35 @@
+@media (max-width: 425px) {
+    .grillaContacto {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 5px;
+      grid-template-areas:
+        "headerContacto headerContacto headerContacto headerContacto"
+        "sectionContacto sectionContacto sectionContacto sectionContacto"
+        "sectionContacto sectionContacto sectionContacto sectionContacto"
+        "footerContacto footerContacto footerContacto footerContacto";
+    }
+    .headerContacto ul {
+      display: flex;
+      background-color: $marronPrincipal;
+      margin: 5px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .sectionContacto {
+      grid-area: sectionContacto;
+      display: flex;
+      text-align: center;
+      justify-content: flex-start;
+      margin: 5px;
+      /* background-color: #c0aa6e; */
+      flex-direction: column;
+    }
+  
+    .asideContacto {
+      display: none;
+    }
+  }
+  

@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="xuca, cerámica, artesanías, arcilla, botanica, adornos">
+    <meta name="description" content="Xuca es un emprendimiento de cerámica hecha a mano con amor">
     <!-- Logo -->
     <link
       rel="shortcut icon"
       href="./img/png-transparent-computer-icons-heart-black-love-text-desktop-wallpaper.png"
     />
+    <!-- Fuente -->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins:wght@300;400&display=swap');
       </style>
     <!-- Iconos -->
     <script
@@ -38,32 +41,60 @@
     <div class="grilla">
       <!-- HEADER -->
       <header class="header">
-        <img src="./img/IMG-5541.PNG" alt="Logo Xuca" class="logoXuca" />
+        <a href="./index.html"><img src="./img/IMG-5541.PNG" alt="Logo Xuca" class="logoXuca"/></a> 
         <div class="nav" class="btn">
-          <nav>
-            <ul>
-              <li>
-                <a class="enlaces text-white" href="./index.html">INICIO</a>
-              </li>
-              <li>
-                <a class="enlaces text-white" href="./productos.html"
-                  >PRODUCTOS</a
-                >
-              </li>
-              <li>
-                <a class="enlaces text-white" href="./quienessomos.html"
-                  >QUIENES SOMOS</a
-                >
-              </li>
-              <li>
-                <a class="enlaces text-white" href="./cursos.html">CURSOS</a>
-              </li>
-              <li>
-                <a class="enlaces text-white" href="./contacto.html"
-                  >CONTACTO</a
-                >
-              </li>
-            </ul>
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active enlaces text-white"
+                      aria-current="page"
+                      href="./index.html"
+                      >INICIO</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link enlaces text-white"
+                      href="./pages/productos.html"
+                      >PRODUCTOS</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link enlaces text-white"
+                      href="./pages/quienessomos.html"
+                      >QUIENES SOMOS</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link enlaces text-white" href="./pages/cursos.html"
+                      >CURSOS</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link enlaces text-white"
+                      href="./pages/contacto.html"
+                      >CONTACTO</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
           </nav>
         </div>
       </header>
@@ -75,10 +106,13 @@
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./img/c1.png" class="d-block w-50" alt="..." />
+            <img src="./img/c1.png" class="d-block w-100" alt="Carousel ceramica artesanal" />
           </div>
           <div class="carousel-item">
-            <img src="./img/c2.png" class="d-block w-50" alt="..." />
+            <img src="./img/c2.png" class="d-block w-100" alt="Carousel hecho en Argentina" />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/c3.png" class="d-block w-100" alt="Carousel proceso" />
           </div>
         </div>
       </div>
@@ -115,18 +149,18 @@
         </p>
         <div class="divImagenes">
           <img
-            src="./img/armando.JPEG"
+            src="https://res.cloudinary.com/dvhvt4yk0/image/upload/v1656360483/armando_dahs50.jpg"
             alt="Proceso de armado"
             class="imagenSection"
           />
           <img
-            src="./img/IMG-0300.JPG"
+            src="https://res.cloudinary.com/dvhvt4yk0/image/upload/v1656360486/IMG-0300_vo6y4i.jpg"
             alt="Macetas Cactus"
             class="imagenSection"
           />
           <br />
           <button class="btn btn-success mt-1">
-            <a href="./productos.html" class="text-white text-decoration-none"
+            <a href="./pages/productos.html" class="text-white text-decoration-none"
               >Ver más</a
             >
           </button>
@@ -189,8 +223,8 @@
             nesciunt quam ad.
           </p>
           <ul>
-            <li>Articulo 1</li>
-            <li>Articulo 2</li>
+            <li><a href="https://www.instagram.com/p/CfHztSDlBRP/" class="enlaceAside">Articulo relacionado</a></li>
+            <li><a href="https://www.instagram.com/p/Cb7tUKAlZbz/" class="enlaceAside">Articulo relacionado</a></li>
           </ul>
         </div>
       </aside>

@@ -1,0 +1,64 @@
+.grilla {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  grid-template-areas:
+    "header header header header"
+    "carousel carousel carousel carousel"
+    "primeraSeccion primeraSeccion primeraSeccion Aside"
+    "segundaSeccion segundaSeccion segundaSeccion segundaSeccion"
+    "footer footer footer footer";
+  background-color: white;
+  margin: 0.5rem;
+}
+
+.header {
+  grid-area: header;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  .logoXuca {
+    height: 8rem;
+  }
+  .nav {
+    width: 100%;
+    background-color: $marronPrincipal;
+    justify-content: space-around;
+  }
+  .navbar > .container-fluid,
+  .navbar > .container-lg,
+  .navbar > .container-md,
+  .navbar > .container-sm,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  ul {
+    display: flex;
+    background-color: $marronPrincipal;
+    align-items: center;
+    justify-content: center;
+  }
+  li {
+    padding: 5px;
+    list-style: none;
+    font-size: 1.1rem;
+  }
+  .enlaces {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.459);
+      border-radius: 5px;
+    }
+  }
+}
+.carousel {
+  grid-area: carousel;
+  display: flex;
+}

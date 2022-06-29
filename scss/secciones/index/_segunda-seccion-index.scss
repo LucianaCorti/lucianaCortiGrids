@@ -1,0 +1,33 @@
+.segundaSeccion {
+    grid-area: segundaSeccion;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    h3 {
+      text-decoration: underline;
+      margin: 0.5rem;
+    }
+    p {
+      margin: 00.5rem;
+    }
+    .imagenSection2 {
+      height: 10rem;
+      margin: 4px;
+      border-radius: 5%;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    .divImagenes2 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      align-content: flex-end;
+      flex-wrap: nowrap;
+      background-color: $fondo;
+      width: 100%;
+    }
+  }
+
+  

@@ -1,0 +1,25 @@
+
+  @media (max-width: 425px) {
+    .grillaProductos {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 5px;
+      grid-template-areas:
+        "headerProductos headerProductos headerProductos headerProductos"
+        "sectionProductos sectionProductos sectionProductos sectionProductos"
+        "sectionProductos sectionProductos sectionProductos sectionProductos"
+        "footerProductos footerProductos footerProductos footerProductos";
+    }
+    .headerProductos ul {
+      display: flex;
+      background-color: $marronPrincipal;
+      margin: 5px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .imagenProductos {
+      max-height: 9rem;
+      margin: 5px;
+    }
+  }
