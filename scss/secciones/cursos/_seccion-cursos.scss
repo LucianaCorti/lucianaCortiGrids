@@ -9,9 +9,7 @@
     color: $coloresLetras;
   }
    video {
-    height: 20rem;
     @extend %bordesImagenes;
-    margin: 1rem;
   }
   
   .container {

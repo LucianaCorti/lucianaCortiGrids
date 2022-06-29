@@ -36,5 +36,9 @@
     }
     .logoXuca1 {
       height: 2rem;
+      &:hover {
+        transition: (1.1);
+        transform: scale(1.1);
+      }
     }
   }
