@@ -8,7 +8,11 @@ p {
   margin-left: 0.8rem;
   margin-right: 0.8rem;
   margin-bottom: 0.2rem;
-  line-height: 1.5rem; }
+  line-height: 1.5rem;
+  text-align: center; }
+
+.imagenQuienes, video {
+  border: solid #bd9354 0.5rem; }
 
 .grilla {
   display: grid;
@@ -316,7 +320,6 @@ h5 {
 
 .imagenQuienes {
   height: 20rem;
-  border: solid #bd9354 0.5rem;
   margin: 1rem; }
 
 @media (max-width: 425px) {
@@ -334,7 +337,6 @@ h4 {
 
 video {
   height: 20rem;
-  border: solid #bd9354 0.5rem;
   margin: 1rem; }
 
 .container {

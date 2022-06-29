@@ -6,7 +6,7 @@ p {
 }
 
 .imagenQuienes {
+  @extend %bordesImagenes;
   height: 20rem;
-  border: solid #bd9354 0.5rem;
   margin: 1rem;
 }

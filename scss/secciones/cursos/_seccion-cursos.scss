@@ -10,7 +10,7 @@
   }
    video {
     height: 20rem;
-    border: solid $marronPrincipal 0.5rem;
+    @extend %bordesImagenes;
     margin: 1rem;
   }
   
