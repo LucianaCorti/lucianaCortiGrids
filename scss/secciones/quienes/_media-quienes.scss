@@ -1,7 +1,23 @@
 @media (max-width: 425px) {
-    .imagenQuienes{
-      height: 15rem;
-      border: solid #bd9354 0.3rem;
-      margin: 1rem;
-    }
-    }
+  .sectionProductos1 {
+    grid-area: sectionProductos;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+.sectionProductos3 {
+  grid-area: sectionProductos3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+.imagenQuienes{
+  height: 15rem;
+  border: solid #bd9354 0.3rem;
+  margin: 1rem;
+}
+}
+
+    

@@ -1,5 +1,22 @@
-.sectionProductos h2 {
-  margin: 0.8rem;
+.grillaProductos {
+  display: grid;
+  grid-template-areas:
+    "headerProductos headerProductos headerProductos headerProductos"
+    "sectionProductos sectionProductos sectionProductos sectionProductos"
+    "sectionProductos3 sectionProductos3 sectionProductos3 sectionProductos3"
+    "footerProductos footerProductos footerProductos footerProductos";
+}
+
+.sectionProductos1 {
+  grid-area: sectionProductos;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem;
+  border: solid $marronPrincipal 2px;
+}
+h2 {
+  margin-top: 0.8rem;
 }
 p {
   @extend %estiloParrafo;
@@ -8,3 +25,19 @@ p {
 .imagenQuienes {
   @extend %bordesImagenes;
 }
+
+.sectionProductos2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionProductos3 {
+  grid-area: sectionProductos3;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 1rem;
+  border: solid $fondo 2px;
+}
+
+
