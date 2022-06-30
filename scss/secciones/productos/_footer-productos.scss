@@ -48,5 +48,9 @@
       right: 20px;
       font-size: 2rem;
       color: #00bb2d;
+      &:hover {
+        transition: (1.1);
+        transform: scale(1.1);
+      }
     }
   }

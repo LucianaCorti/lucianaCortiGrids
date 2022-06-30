@@ -322,6 +322,9 @@ h5 {
     right: 20px;
     font-size: 2rem;
     color: #00bb2d; }
+    .footerProductos .whatsapp:hover {
+      transition: 1.1;
+      transform: scale(1.1); }
 
 @media (max-width: 425px) {
   .grillaProductos {
@@ -484,6 +487,16 @@ input {
   .footerContacto .logoXuca1 {
     height: 2rem; }
     .footerContacto .logoXuca1:hover {
+      transition: 1.1;
+      transform: scale(1.1); }
+  .footerContacto .whatsapp {
+    position: fixed;
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: #00bb2d; }
+    .footerContacto .whatsapp:hover {
       transition: 1.1;
       transform: scale(1.1); }
 
