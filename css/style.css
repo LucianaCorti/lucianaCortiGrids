@@ -425,7 +425,8 @@ h4 {
 
 .container {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 1rem; }
 
 @media (max-width: 425px) {
   .divCursos {
