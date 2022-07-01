@@ -410,13 +410,17 @@ h4 {
 .divForm {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  margin-top: 4rem;
+  padding: 1.5rem;
+  border: solid #bd9354 4px; }
 
 .divCursos1 {
   display: flex;
   width: 70%;
   flex-direction: column;
   margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   align-items: center; }
   .divCursos1 p {
     margin: 1rem;
@@ -427,6 +431,12 @@ h4 {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem; }
+
+.whatsapp1 {
+  font-size: 5rem;
+  color: green; }
+  .whatsapp1:hover {
+    color: #bd9354; }
 
 @media (max-width: 425px) {
   .divCursos {
