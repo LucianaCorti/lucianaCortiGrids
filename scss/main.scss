@@ -3,6 +3,8 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
   }
+
+  
   
   //Variables
   @import './variables/colores';
@@ -29,6 +31,8 @@
 
   //Cursos
   @import './secciones/cursos/seccion-cursos';
+  @import './secciones/cursos/media-cursos';
+
 
   //Contacto
   @import './secciones/contacto/header-contacto';

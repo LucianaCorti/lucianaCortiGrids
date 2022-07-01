@@ -1,0 +1,15 @@
+@media (max-width: 425px) {
+    .divCursos {
+      grid-area: sectionProductos;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem;
+  }
+.divForm{
+    display: none;
+}
+video{
+    height: 15rem;
+}
+  }
