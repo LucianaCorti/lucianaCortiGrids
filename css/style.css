@@ -5,7 +5,7 @@
 
 .sectionProductos1 p, .sectionProductos2 p {
   margin: 0.9rem;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
   text-align: center; }
 
 .imagenQuienes, video {
@@ -428,7 +428,8 @@ h4 {
   .divCursos1 p {
     margin: 1rem;
     width: 70%;
-    text-align: justify; }
+    text-align: center;
+    line-height: 1.8rem; }
 
 .container {
   display: flex;
