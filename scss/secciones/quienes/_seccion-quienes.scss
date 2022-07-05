@@ -20,7 +20,8 @@ h2 {
 }
 p {
   @extend %estiloParrafo;
-  text-align: justify;
+  // text-align: justify;
+  width: 60%;
 }
 
 .imagenQuienes {
@@ -28,8 +29,10 @@ p {
 }
 
 .sectionProductos2 {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
 }
 
 .sectionProductos3 {
