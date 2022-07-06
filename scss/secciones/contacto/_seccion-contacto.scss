@@ -16,3 +16,18 @@ input {
   text-align: center;
   border: solid 1px black;
 }
+
+.form-check-label{
+  margin-top: 5px;
+}
+
+.botonForm{
+  color: white;
+  background-color: $marronPrincipal;
+  border: solid 1px $marronPrincipal;
+  &:hover {
+    background-color: $fondo;
+    color: white;
+    border: solid 1px white;
+  }
+}
