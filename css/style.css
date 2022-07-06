@@ -518,6 +518,18 @@ input {
   text-align: center;
   border: solid 1px black; }
 
+.form-check-label {
+  margin-top: 5px; }
+
+.botonForm {
+  color: white;
+  background-color: #bd9354;
+  border: solid 1px #bd9354; }
+  .botonForm:hover {
+    background-color: #c0aa6e;
+    color: white;
+    border: solid 1px white; }
+
 .footerContacto {
   grid-area: footerContacto; }
   .footerContacto .divFooter {
