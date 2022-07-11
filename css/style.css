@@ -86,6 +86,14 @@
     .primeraSeccion .imagenSection:hover {
       transition: 1.1;
       transform: scale(1.1); }
+  .primeraSeccion .botonForm {
+    color: white;
+    background-color: #bd9354;
+    border: solid 1px #bd9354; }
+    .primeraSeccion .botonForm:hover {
+      background-color: #c0aa6e;
+      color: white;
+      border: solid 1px white; }
 
 .segundaSeccion {
   grid-area: segundaSeccion;

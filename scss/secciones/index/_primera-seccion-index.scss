@@ -24,4 +24,14 @@
         transform: scale(1.1);
       }
     }
+    .botonForm{
+      color: white;
+      background-color: $marronPrincipal;
+      border: solid 1px $marronPrincipal;
+      &:hover {
+        background-color: $fondo;
+        color: white;
+        border: solid 1px white;
+      }
   }
+}
