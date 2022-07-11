@@ -137,15 +137,21 @@
   background-image: url(https://images.unsplash.com/photo-1508716897701-edab2a9e860c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80);
   background-size: cover;
   color: black;
-  margin: 5px; }
+  margin: 5px;
+  font-size: 1.1rem;
+  margin: 0.8rem; }
 
 h3 {
   color: #bd9354;
   text-decoration: underline;
   padding: 0.5rem; }
 
-h5 {
-  margin-top: 8rem; }
+h4 {
+  font-size: 1.3rem; }
+
+p {
+  margin-left: 1.8rem;
+  margin-right: 1.8rem; }
 
 .enlaceAside {
   text-decoration: none;
@@ -231,7 +237,9 @@ h5 {
     align-content: flex-end;
     flex-wrap: nowrap;
     background-color: #c0aa6e;
-    width: 100%; }
+    width: 80%; }
+  h3 {
+    text-align: center; }
   .divAside {
     display: none; }
   .carousel {
@@ -352,7 +360,7 @@ h5 {
     justify-content: center;
     flex-direction: column; }
   .imagenProductos {
-    max-height: 9rem;
+    max-height: 20rem;
     margin: 5px; } }
 
 .grillaProductos {

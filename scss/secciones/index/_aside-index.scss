@@ -10,14 +10,20 @@
   background-size: cover;
   color: black;
   margin: 5px;
+  font-size: 1.1rem;
+  margin: 0.8rem;
 }
 h3 {
   color: $marronPrincipal;
   text-decoration: underline;
   padding: 0.5rem;
 }
-h5 {
-  margin-top: 8rem;
+h4{
+  font-size: 1.3rem;
+}
+p{
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
 }
 .enlaceAside {
   @include enlaces(white, $marronPrincipal);
