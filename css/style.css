@@ -627,6 +627,7 @@ li {
     justify-content: flex-start;
     margin: 5px;
     /* background-color: #c0aa6e; */
-    flex-direction: column; }
+    flex-direction: column;
+    min-height: 60vh; }
   .asideContacto {
     display: none; } }
