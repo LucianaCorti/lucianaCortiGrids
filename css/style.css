@@ -361,7 +361,7 @@ p {
     justify-content: center;
     flex-direction: column; }
   .imagenProductos {
-    max-height: 20rem;
+    max-height: 10rem;
     margin: 5px; } }
 
 .grillaProductos {
