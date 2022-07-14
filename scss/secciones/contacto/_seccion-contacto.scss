@@ -11,17 +11,17 @@
   flex-direction: column;
   align-items: center;
 }
+
 input {
   text-align: center;
-  border: solid 1px black;
   margin-bottom: 1rem;
 }
 
-.form-check-label{
-  margin-top: 5px;
+.border {
+  border: var(--bs-border-width) var(--bs-border-style) #bd9354 !important;
 }
 
-.botonForm{
+.botonForm {
   color: white;
   background-color: $marronPrincipal;
   border: solid 1px $marronPrincipal;
